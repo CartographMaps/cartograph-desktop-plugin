@@ -29,7 +29,7 @@ public:
 	...
 ```
 
-Then add the following which initiates the plugin:
+Then add the following code which initiates the plugin:
 ```
 extern "C" CARTOGRAPH_API CartographPluginInterface *createInstance()
 {
