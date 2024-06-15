@@ -1,0 +1,2 @@
+# Visual Studio map list example
+This example shows how to create a map list plugin for Cartograph Maps in Visual Studio. The plugin provides three different types of maps (one red, green, and blue solid map).
