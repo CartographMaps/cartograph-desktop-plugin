@@ -151,12 +151,12 @@ public:
 
     /**
      * @brief getTileAt Get the tile at a specific location (slippy tile format y/x/zoom).
-     * @param tile
+     * @param tile The requested tile.
      * @param helper Provides methods for tile transformations.
-     * @parem outDataSize The size of the returned buffer.
+     * @param outDataSize The size of the returned buffer.
      * @return A pointer to the data.
      */
-    virtual const uint8_t* getTileAt(CartographMapInterface::Tile &tile, CalcTool *helper, int* outDateSize) = 0;
+    virtual const uint8_t* getTileAt(CartographMapInterface::Tile &tile, CalcTool *helper, int* outDataSize) = 0;
 
 };
 
